@@ -9,4 +9,4 @@ for i in range(n):
     num=(float(input("Numero "+str(i+1)+": ")))
     l+=[num]
 minimo,massimo=min_max_lista(l)
-print("Max: ",massimo,"\nMin: ",minimo)
+print(f"Max: {massimo}\nMin: {minimo}")
