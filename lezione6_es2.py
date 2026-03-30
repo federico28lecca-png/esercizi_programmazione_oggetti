@@ -15,7 +15,7 @@ class CLista_voti:
     def __init__(self):
         self._lista_esami = []
 
-    def aggiungi_esame(self):
+    def _aggiungi_esame(self):
         nome_esame = input("Nome esame: ")
         voto_primo_parziale = float(input("Voto primo parziale: "))
         voto_secondo_parziale = float(input("Voto secondo parziale: "))
@@ -37,6 +37,6 @@ n_esami = int(input("Quanti esami vuoi inserire: "))
 lista_voti = CLista_voti()
 for i in range(n_esami):
     print(f"Dati esame {i+1}.")
-    lista_voti.aggiungi_esame()
+    lista_voti._aggiungi_esame()
 
 lista_voti.mostra_nome_esame_piu_alto()
