@@ -12,6 +12,7 @@ Definire prima il diagramma delle classi
 class CProgrammatore:
     stipendio_base = 1500
     premio_dicembre = 0
+
     def __init__(self, nome, cognome):
         self.nome = nome
         self.cognome = cognome
